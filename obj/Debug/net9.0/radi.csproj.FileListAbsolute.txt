@@ -1,0 +1,15 @@
+D:\Personal\Github\radi\bin\Debug\net9.0\radi.exe
+D:\Personal\Github\radi\bin\Debug\net9.0\radi.deps.json
+D:\Personal\Github\radi\bin\Debug\net9.0\radi.runtimeconfig.json
+D:\Personal\Github\radi\bin\Debug\net9.0\radi.dll
+D:\Personal\Github\radi\bin\Debug\net9.0\radi.pdb
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.AssemblyInfoInputs.cache
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.AssemblyInfo.cs
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.csproj.CoreCompileInputs.cache
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.sourcelink.json
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.dll
+D:\Personal\Github\radi\obj\Debug\net9.0\refint\radi.dll
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.pdb
+D:\Personal\Github\radi\obj\Debug\net9.0\radi.genruntimeconfig.cache
+D:\Personal\Github\radi\obj\Debug\net9.0\ref\radi.dll
