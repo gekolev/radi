@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gekolev\\.nuget\\packages\\": {}
+    "C:\\Users\\cankr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\Github\\radi\\radi.csproj",
+      "projectUniqueName": "C:\\Users\\cankr\\Desktop\\gittest\\radi\\radi.csproj",
       "projectName": "radi",
-      "projectPath": "D:\\Personal\\Github\\radi\\radi.csproj",
-      "packagesPath": "C:\\Users\\gekolev\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\Github\\radi\\obj\\",
+      "projectPath": "C:\\Users\\cankr\\Desktop\\gittest\\radi\\radi.csproj",
+      "packagesPath": "C:\\Users\\cankr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cankr\\Desktop\\gittest\\radi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gekolev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cankr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
