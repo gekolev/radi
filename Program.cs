@@ -36,18 +36,18 @@ for (int i = 0; i < numbers.Length; i++)
 }
 
 int largest = numbers[0];
-int secondlargest = numbers[0];
+int secondLargest = numbers[0];
 foreach (int num in numbers)
 {
     if (num > largest)
     {
         largest = num;
     }
-    // else if (num > secondlargest && num != largest)
-    else if (secondlargest < largest && num != largest)
+
+    else if (secondLargest < largest && num != largest)
     {
-        secondlargest = num;
+        secondLargest = num;
     }
 }
-Console.WriteLine("Second Largest Element: " + secondlargest);
+Console.WriteLine("Second Largest Element: " + secondLargest);
 Console.WriteLine("Largest Element: " + largest);
