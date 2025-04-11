@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("radi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f68e591b42497dac8c01cf1fae4aaa712e15e5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00f8ceec72af38003153dd0b84116e224489b6ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("radi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("radi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
