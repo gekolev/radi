@@ -27,30 +27,30 @@
 
 //Excersise 12
 
-int[] numbers = new int[10];
+// int[] numbers = new int[10];
 
-for (int i = 0; i < numbers.Length; i++)
-{
-    Console.Write($"Enter integer {i + 1}: ");
-    numbers[i] = int.Parse(Console.ReadLine());
-}
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     Console.Write($"Enter integer {i + 1}: ");
+//     numbers[i] = int.Parse(Console.ReadLine());
+// }
 
-int largest = numbers[0];
-int secondLargest = numbers[0];
-foreach (int num in numbers)
-{
-    if (num > largest)
-    {
-        largest = num;
-    }
+// int largest = numbers[0];
+// int secondLargest = numbers[0];
+// foreach (int num in numbers)
+// {
+//     if (num > largest)
+//     {
+//         largest = num;
+//     }
 
-    else if (secondLargest < largest && num != largest)
-    {
-        secondLargest = num;
-    }
-}
-Console.WriteLine("Second Largest Element: " + secondLargest);
-Console.WriteLine("Largest Element: " + largest);
+//     else if (secondLargest < largest && num != largest)
+//     {
+//         secondLargest = num;
+//     }
+// }
+// Console.WriteLine("Second Largest Element: " + secondLargest);
+// Console.WriteLine("Largest Element: " + largest);
 
 /**
  int[] numbers = new int[10];
@@ -104,3 +104,26 @@ Console.WriteLine("Largest Element: " + largest);
             // Print the second largest number
         }
         **/
+
+// Excersise 13 (Template)
+
+Console.WriteLine("Please write down a number: ");
+string input = Console.ReadLine();
+
+if (double.TryParse(input, out double number)) //we give it some rules while transferring the double into a string so that the string input comand can work
+{
+    Console.WriteLine("Given Number: " + number); //original number 
+
+    double rounded = Math.Round(number);  // rounds up the number 
+
+    Console.WriteLine($"Rounded up number (Closest Highest Rounded): {rounded}"); //rounds up the number to the closest number 
+
+    double ceiling = Math.Ceiling(number);
+    Console.WriteLine($"Rounded up number (To a Higher Number): {ceiling}"); //round it up to a higher number
+
+}
+else // if you dont type in a number that is considered roundable or something like that 
+{
+    Console.WriteLine("Invalid number, please write down a valid number");
+    //theres No Math.Floor cause this felt easier to write with, although I feel like it could be written better 
+}

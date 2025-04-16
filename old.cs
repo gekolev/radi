@@ -250,105 +250,105 @@
 // }
 
 
-using System;
+// using System;
 
 
-public class Program
-{
+// public class Program
+// {
 
 
-    static void Main()
-    {
-        Console.WriteLine("Welcome to Guess the Number!");
-        // Displays a welcome message to the player
+//     static void Main()
+//     {
+//         Console.WriteLine("Welcome to Guess the Number!");
+//         // Displays a welcome message to the player
 
 
-        PlayGame();
-        // Calls the function that contains the main game logic
-    }
+//         PlayGame();
+//         // Calls the function that contains the main game logic
+//     }
 
 
-    static void PlayGame()
-    {
-        Random random = new Random();
-        // Creates a new Random object to generate random numbers
+//     static void PlayGame()
+//     {
+//         Random random = new Random();
+//         // Creates a new Random object to generate random numbers
 
 
-        int numberToGuess = random.Next(1, 101); // Random number between 1 and 100
-        // Picks a random number between 1 and 100 (inclusive of 1, exclusive of 101)
+//         int numberToGuess = random.Next(1, 101); // Random number between 1 and 100
+//         // Picks a random number between 1 and 100 (inclusive of 1, exclusive of 101)
 
 
-        int guess = 0;
-        // Stores the player's guess, initially set to 0
+//         int guess = 0;
+//         // Stores the player's guess, initially set to 0
 
 
-        int attempts = 1;
-        // Counts how many attempts the player has made
+//         int attempts = 1;
+//         // Counts how many attempts the player has made
 
 
-        while (guess != numberToGuess)
-        // Repeats the loop until the player guesses the correct number
-        {
-            Console.Write("Take a guess (1-100): ");
-            // Asks the player to input their guess
+//         while (guess != numberToGuess)
+//         // Repeats the loop until the player guesses the correct number
+//         {
+//             Console.Write("Take a guess (1-100): ");
+//             // Asks the player to input their guess
 
 
-            string input = Console.ReadLine();
-            // Reads the player's input as a string
+//             string input = Console.ReadLine();
+//             // Reads the player's input as a string
 
 
-            // Try to convert input to an integer
-            if (int.TryParse(input, out guess))
-            // Checks if the input can be safely converted to an integer
-            {
-                attempts++;
-                // Increases the attempt counter by 1
-                if (attempts <= 5) // how many attempts the player has.
-                {
-                    if (guess < numberToGuess)
-                    // If the guess is too low
-                    {
-                        Console.WriteLine("Too low! Try again.");
-                        // Tells the player their guess is too low
-                    }
-                    else if (guess > numberToGuess)
-                    // If the guess is too high
-                    {
-                        Console.WriteLine("Too high! Try again.");
-                        // Tells the player their guess is too high
-                    }
-                    else
-                    // If the guess is exactly equal to the number
-                    {
-                        Console.WriteLine($"Congratulations! You guessed it in {attempts} tries.");
-                        // Congratulates the player and shows how many attempts it took
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("You lost the game!");
-                    break; // get out of loop
-                }
-            }
-            else
-            {
-                Console.WriteLine("That's not a valid number. Please enter a number between 1 and 100.");
-                // If the input was not a valid number, display an error message
-            }
-        }
-    }
-    // int A = 5;
-    // string B = "wolf";
-    // bool C = true;
-    // double D = 3.14127386123127361287361237123;
-    // char E = 'E';
-    // while (C == true)
-    // {
-    //     Console.WriteLine("Test");
-    // }
-    for (int i = 14; i <= 5;i++)
-    {
-        Console.WriteLine("test");
-    }
-}
+//             // Try to convert input to an integer
+//             if (int.TryParse(input, out guess))
+//             // Checks if the input can be safely converted to an integer
+//             {
+//                 attempts++;
+//                 // Increases the attempt counter by 1
+//                 if (attempts <= 5) // how many attempts the player has.
+//                 {
+//                     if (guess < numberToGuess)
+//                     // If the guess is too low
+//                     {
+//                         Console.WriteLine("Too low! Try again.");
+//                         // Tells the player their guess is too low
+//                     }
+//                     else if (guess > numberToGuess)
+//                     // If the guess is too high
+//                     {
+//                         Console.WriteLine("Too high! Try again.");
+//                         // Tells the player their guess is too high
+//                     }
+//                     else
+//                     // If the guess is exactly equal to the number
+//                     {
+//                         Console.WriteLine($"Congratulations! You guessed it in {attempts} tries.");
+//                         // Congratulates the player and shows how many attempts it took
+//                     }
+//                 }
+//                 else
+//                 {
+//                     Console.WriteLine("You lost the game!");
+//                     break; // get out of loop
+//                 }
+//             }
+//             else
+//             {
+//                 Console.WriteLine("That's not a valid number. Please enter a number between 1 and 100.");
+//                 // If the input was not a valid number, display an error message
+//             }
+//         }
+//     }
+//     // int A = 5;
+//     // string B = "wolf";
+//     // bool C = true;
+//     // double D = 3.14127386123127361287361237123;
+//     // char E = 'E';
+//     // while (C == true)
+//     // {
+//     //     Console.WriteLine("Test");
+//     // }
+//     for (int i = 14; i <= 5;i++)
+//     {
+//         Console.WriteLine("test");
+//     }
+// }
 
