@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Notes App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <h1>📝 My Notes</h1>
-        </header>
-        
-        <div class="notes-input">
-            <input type="text" id="noteTitle" placeholder="Enter note title..." maxlength="50">
-            <textarea id="noteContent" placeholder="Write your note here..." rows="5"></textarea>
-            <div class="button-group">
-                <button id="saveNote">💾 Save Note</button>
-                <button id="clearNote">🗑️ Clear</button>
-            </div>
-        </div>
+      <header>
+        <h1>📝 My Notes</h1>
+      </header>
 
-        <div class="notes-list">
-            <h2>Your Notes</h2>
-            <div id="notesContainer"></div>
+      <div class="notes-input">
+        <input
+          type="text"
+          id="noteTitle"
+          placeholder="Enter note title..."
+          maxlength="50"
+        />
+        <textarea
+          id="noteContent"
+          placeholder="Write your note here..."
+          rows="5"
+        ></textarea>
+        <div class="button-group">
+          <button id="saveNote">💾 Save Note</button>
+          <button id="clearNote">🗑️ Clear</button>
         </div>
+      </div>
+
+      <div class="notes-list">
+        <h2>Your Notes</h2>
+        <div id="notesContainer"></div>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>

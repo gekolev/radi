@@ -7,7 +7,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
@@ -42,6 +44,7 @@ header h1 {
 }
 
 #noteTitle {
+  font-family: "Pixelify Sans", sans-serif;
   width: 100%;
   padding: 15px;
   border: 2px solid #e9ecef;
@@ -90,6 +93,7 @@ button {
 }
 
 #saveNote {
+  font-family: "Pixelify Sans", sans-serif;
   background: #4CAF50;
   color: white;
 }
@@ -100,6 +104,7 @@ button {
 }
 
 #clearNote {
+  font-family: "Pixelify Sans", sans-serif;
   background: #f44336;
   color: white;
 }
@@ -131,6 +136,7 @@ button {
 }
 
 .note-card {
+  font-family: "Pixelify Sans", sans-serif;
   background: white;
   border: 1px solid #e9ecef;
   border-radius: 10px;
