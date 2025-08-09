@@ -4,24 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer Project</title>
+    <title>Simple Notes App</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>📝 My Notes</h1>
+        </header>
+        
+        <div class="notes-input">
+            <input type="text" id="noteTitle" placeholder="Enter note title..." maxlength="50">
+            <textarea id="noteContent" placeholder="Write your note here..." rows="5"></textarea>
+            <div class="button-group">
+                <button id="saveNote">💾 Save Note</button>
+                <button id="clearNote">🗑️ Clear</button>
+            </div>
+        </div>
 
-    <h1 class="headings">Hello World</h1>
-    <h1 class="headings">Hello World2</h1>
-    <h1 class="headings">Hello World3</h1>
-    <h1 class="headings"> Good Bye World </h1>
-
-    <p class="headings">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ad. Impedit necessitatibus nulla dignissimos nemo omnis alias corrupti sint, deserunt architecto accusantium atque? Aut fuga accusantium dolores rerum unde recusandae?</p>
-
-
-    <textarea rows="4" cols="50">
-    </textarea>
-    <button id="testButton">Click Me!</button>
+        <div class="notes-list">
+            <h2>Your Notes</h2>
+            <div id="notesContainer"></div>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
