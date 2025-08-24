@@ -1,5 +1,14 @@
 /* Notes App Styles */
 
+:root {
+  --primary-color: #3498db;
+  --background-color: #666;
+  --accent-color: #dd7a1e;
+  --background-color-2: #224566;
+  --background-color-3: #711284;
+    /* background-color: var(--primary-color); */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +19,7 @@ body {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--background-color-2) 0%, var(--background-color-3) 100%);
   min-height: 100vh;
   padding: 20px;
 }
@@ -25,7 +34,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--background-color-2) 100%);
   color: white;
   padding: 30px;
   text-align: center;
@@ -56,7 +65,7 @@ header h1 {
 
 #noteTitle:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: var(--accent-color);
 }
 
 #noteContent {
@@ -73,7 +82,7 @@ header h1 {
 
 #noteContent:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: var(--accent-color);
 }
 
 .button-group {
@@ -94,23 +103,23 @@ button {
 
 #saveNote {
   font-family: "Pixelify Sans", sans-serif;
-  background: #4CAF50;
+  background: var(--accent-color);
   color: white;
 }
 
 #saveNote:hover {
-  background: #45a049;
+  background: var(--background-color-3);
   transform: translateY(-2px);
 }
 
 #clearNote {
   font-family: "Pixelify Sans", sans-serif;
-  background: #666;
+  background:  var(--background-color);
   color: white;
 }
 
 #clearNote:hover {
-  background: #666;
+  background: var(--background-color);
   transform: translateY(-2px);
 }
 
@@ -127,7 +136,7 @@ button {
 
 .no-notes {
   text-align: center;
-  color: #666;
+  color: var(--background-color);
   font-size: 1.1em;
   padding: 40px;
   background: #f8f9fa;
@@ -168,7 +177,7 @@ button {
 }
 
 .delete-btn {
-  background: #666;
+  background:  var(--background-color);
   color: white;
   border: none;
   border-radius: 50%;
@@ -184,7 +193,7 @@ button {
 }
 
 .delete-btn:hover {
-  background: #666;
+  background:  var(--background-color);
   transform: scale(1.1);
 }
 
