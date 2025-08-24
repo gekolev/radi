@@ -105,12 +105,12 @@ button {
 
 #clearNote {
   font-family: "Pixelify Sans", sans-serif;
-  background: #f44336;
+  background: #666;
   color: white;
 }
 
 #clearNote:hover {
-  background: #da190b;
+  background: #666;
   transform: translateY(-2px);
 }
 
@@ -168,7 +168,7 @@ button {
 }
 
 .delete-btn {
-  background: #ff4757;
+  background: #666;
   color: white;
   border: none;
   border-radius: 50%;
@@ -184,7 +184,7 @@ button {
 }
 
 .delete-btn:hover {
-  background: #ff3838;
+  background: #666;
   transform: scale(1.1);
 }
 
